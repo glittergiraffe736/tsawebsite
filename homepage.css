@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    overflow: hidden; /* Prevent default margin and scrollbar */
+    overflow-x: hidden; /* Prevent default margin and scrollbar */
 }
 
 .backgroundpic {
@@ -16,7 +16,7 @@ body {
 
 .navbar {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     padding: 20px 8%;
